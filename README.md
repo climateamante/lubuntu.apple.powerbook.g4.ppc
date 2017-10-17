@@ -1,5 +1,5 @@
 # Apple PowerBook PPC G4 - Lubuntu #
-
+ > Hardware Tested | PowerBook G4 1.67 17" (Al)
 
 ## Install the USB disk image ##
 
@@ -29,8 +29,7 @@
 
  - Add the following line to the append config file
 
- >
-```
+> ```
 image=/boot/vmlinux
         label=Linux
         read-only
@@ -39,6 +38,9 @@ image=/boot/vmlinux
 ```
 
 ## Notes ##
+
+The ``yaboot.config`` screen dimensions should match your device, the example was for a 17-inch powerbook with a ATI Radeon
+
 
 There will be times when the screen is off or the ethernet connection may seem slow, be patient.
 
