@@ -1,4 +1,4 @@
-=# Apple PowerBook PPC G4 - Lubuntu #
+# Apple PowerBook PPC G4 - Lubuntu #
  > Hardware Tested | PowerBook G4 1.67 17" (Al)
 
 ## Install the USB disk image ##
