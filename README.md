@@ -1,9 +1,13 @@
-# Apple PowerBook PPC G4 - Lubuntu #
+=# Apple PowerBook PPC G4 - Lubuntu #
  > Hardware Tested | PowerBook G4 1.67 17" (Al)
 
 ## Install the USB disk image ##
 
- - ```diskutil unmountDisk /dev/disk2```
+ - Find your USB device
+	- ``diskutil list``
+
+ - Unmount the USB device before making the bootable drive
+ 	- ```diskutil unmountDisk /dev/disk2```
 
 #### if ``pv`` is installed via ``brew`` to monitor progress ####
 
