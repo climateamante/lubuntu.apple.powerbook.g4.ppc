@@ -37,3 +37,17 @@ image=/boot/vmlinux
         initrd=/boot/initrd.img
         append="quiet splash live video=radeonfb:1440x900-32@60"
 ```
+
+## Notes ##
+
+There will be times when the screen is off or the ethernet connection may seem slow, be patient.
+
+If the screen stays completely black for longer than five minutes with no response
+
+ - no mouse movement
+ - no keyboard activity
+ - no network activity
+
+Then it is possible that it was a kernel panic or a setting changed from the ``yaboot.config`` that is incorrect for your device.
+
+All credit goes to the countless hours of the opensource Apple | Lubuntu community for breathing life back into old hardware.
