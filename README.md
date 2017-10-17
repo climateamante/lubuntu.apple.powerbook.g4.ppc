@@ -29,7 +29,7 @@
 
  - Add the following line to the append config file
 
-> ```
+```
 image=/boot/vmlinux
         label=Linux
         read-only
