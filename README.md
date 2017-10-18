@@ -41,6 +41,28 @@ image=/boot/vmlinux
         append="quiet splash live video=radeonfb:1440x900-32@60"
 ```
 
+## Optimization ##
+
+
+``cat /proc/sys/vm/swappiness``
+```
+#Decrease swap usage to a more reasonable level
+vm.swappiness=10
+```
+
+
+
+## Setting Up VPN ##
+
+ - Able to import `opvn` config file
+
+```
+sudo apt-get install openvpn network-manager-openvpn network-manager-openvpn-gnome network-manager-vpnc
+sudo /etc/init.d/networking restart
+```
+
+
+
 ## Notes ##
 
 The ``yaboot.config`` screen dimensions should match your device, the example was for a 17-inch powerbook with a ATI Radeon
