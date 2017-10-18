@@ -51,6 +51,25 @@ vm.swappiness=10
 ```
 
 
+## Keyboard Backlight ##
+
+```
+sudo modprobe i2c-dev
+sudo /etc/init.d/pbbuttonsd restart
+```
+
+```
+sudo modprobe pmu_battery
+sudo nano /etc/modules
+ > pmu_battery
+```
+
+## Setting Up WiFi ##
+
+```
+sudo apt-get install firmware-b43-installer
+```
+
 
 ## Setting Up VPN ##
 
