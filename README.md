@@ -84,7 +84,7 @@ sudo /etc/init.d/networking restart
 
 ## Notes ##
 
-The ``yaboot.config`` screen dimensions should match your device, the example was for a 17-inch powerbook with a ATI Radeon
+The ``yaboot.config`` screen dimensions should match your device, the example was for a 17-inch powerbook with an ATI Radeon
 
 
 There will be times when the screen is off or the ethernet connection may seem slow, be patient.
